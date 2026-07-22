@@ -127,6 +127,38 @@ button[type="button"]{
     border:1px solid #ddd;
     color:#333;
   }
+.menu-btn{
+    font-size:32px;
+    cursor:pointer;
+    position:fixed;
+    top:20px;
+    right:20px;
+    z-index:1001;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    right:-280px;
+    width:280px;
+    height:100%;
+    background:#fff;
+    transition:.3s;
+    padding:25px;
+    box-shadow:-3px 0 10px rgba(0,0,0,.2);
+}
+
+.sidebar.active{
+    right:0;
+}
+
+.sidebar a{
+    display:block;
+    text-decoration:none;
+    color:#333;
+    padding:15px 0;
+    font-size:20px;
+    }
 </style>
 </head>
 
